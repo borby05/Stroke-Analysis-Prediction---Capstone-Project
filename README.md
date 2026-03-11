@@ -298,21 +298,21 @@ The project also demonstrates an understanding of the clinical context behind th
 
 This project was developed as a group capstone by the following team members:
 
-|Name            |Role                                |Profile            |
-|----------------|------------------------------------|-------------------|
-|[Member 1 Name] |[Role e.g. EDA & Data Preprocessing]|[LinkedIn / GitHub]|
-|[Member 2 Name] |[Role e.g. Model Development]       |[LinkedIn / GitHub]|
-|[Member 3 Name] |[Role e.g. Hyperparameter Tuning]   |[LinkedIn / GitHub]|
-|[Member 4 Name] |[Role e.g. Model Evaluation]        |[LinkedIn / GitHub]|
-|[Member 5 Name] |[Role e.g. Streamlit Deployment]    |[LinkedIn / GitHub]|
-|[Member 6 Name] |[Role e.g. EDA & Visualisation]     |[LinkedIn / GitHub]|
-|[Member 7 Name] |[Role e.g. Feature Engineering]     |[LinkedIn / GitHub]|
-|[Member 8 Name] |[Role e.g. Documentation & README]  |[LinkedIn / GitHub]|
-|[Member 9 Name] |[Role e.g. Data Cleaning]           |[LinkedIn / GitHub]|
-|[Member 10 Name]|[Role e.g. Model Interpretation]    |[LinkedIn / GitHub]|
-|[Member 11 Name]|[Role e.g. Project Coordination]    |[LinkedIn / GitHub]|
+|NAME            |REG NUMBER                               |
+|----------------|------------------------------------|
+|[Member 1 Name] ||
+|[Member 2 Name] |      |
+|[Member 3 Name] |   |
+|[Member 4 Name] |        |
+|[Member 5 Name] |    |
+|[Member 6 Name] |     |
+|[Member 7 Name] |     |
+|[Member 8 Name] |  |
+|[Member 9 Name] |           |
+|[Member 10 Name]|    |
+|[Member 11 Name]|    |
 
-[Your Institution]
+**INSTITUTION: TECH CRUSH**
 
 
 
