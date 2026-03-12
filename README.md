@@ -300,9 +300,9 @@ This project was developed as a group capstone by the following team members:
 
 |NAME            |REG NUMBER                               |
 |----------------|------------------------------------|
-|[Member 1 Name] ||
+|Udobuzor Chinaecherem Augustus |DS/2025/TC5/083|
 |[Member 2 Name] |      |
-|[Member 3 Name] |   |
+|Adetola Isaac Olamide | DS/2025/TC5/072 |
 |[Member 4 Name] |        |
 |[Member 5 Name] |    |
 |[Member 6 Name] |     |
