@@ -320,7 +320,7 @@ This project was developed as a group capstone by the following team members:
 |Adetola Isaac Olamide | DS/2025/TC5/072 |
 |⁠Julius Ayomide | DS/2025/TC5/094   |
 |⁠Kareem Azeezat Adebomi |  DS/2025/TC5/080  |
-|[Member 6 Name] |     |
+|⁠Wasiu Alabi, Sadu | DS/2025/TC5/181|
 |[Member 7 Name] |     |
 |[Member 8 Name] |  |
 |[Member 9 Name] |           |
