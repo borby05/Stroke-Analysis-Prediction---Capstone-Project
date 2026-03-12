@@ -230,7 +230,7 @@ The dataset contains no timestamps or longitudinal records. It is a single snaps
 201 patients had missing BMI values which were imputed using age group and gender median. While this is a statistically sound approach, imputed values introduce a small degree of uncertainty into the dataset that real measured values would not.
 
 
-## Recommendations
+## Data Recommendations
 
 **Threshold Calibration**
 Before any clinical deployment the decision threshold should be calibrated in direct consultation with medical professionals. The current default of 0.5 incorrectly flags 63.5% of healthy patients as high risk. A threshold analysis should be conducted to find the operating point that balances an acceptable false positive rate against the clinical requirement to minimise missed stroke cases.
@@ -251,7 +251,7 @@ Before any real world deployment the model should be prospectively validated on 
 For clinical adoption doctors need to understand why the model flagged a specific patient as high risk, not just that it did. Integrating an explainability library such as SHAP into the deployment app would show which features drove each individual prediction, building clinician trust and enabling more informed medical decision making.
 
 
-## Deployment
+## Model Deployment
 
 The final model is deployed as an interactive web application using Streamlit.
 
