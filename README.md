@@ -60,7 +60,7 @@ The dataset is severely imbalanced with a 19.5:1 ratio. A naive model predicting
 
 |Feature         |Stroke Rate|Key Finding                                            |
 |----------------|-----------|-------------------------------------------------------|
-|Age 70+         |17.84%     |Strongest individual predictor — nearly 4x the baseline|
+|Age 70+         |17.84%     |Strongest individual predictor, nearly 4x the baseline|
 |Heart Disease   |17.03%     |Independent cardiovascular risk pathway                |
 |Hypertension    |13.25%     |Significant but partially age-driven                   |
 |Glucose 200+    |12.90%     |Clear threshold effect above 150                       |
