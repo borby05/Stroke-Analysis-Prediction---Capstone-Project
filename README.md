@@ -318,7 +318,7 @@ This project was developed as a group capstone by the following team members:
 |Udobuzor Chinaecherem Augustus |DS/2025/TC5/083|
 |⁠Goodness Chimelum Onyenakazi |   DS/2025/TC5/148   |
 |Adetola Isaac Olamide | DS/2025/TC5/072 |
-|[Member 4 Name] |        |
+|⁠Julius Ayomide | DS/2025/TC5/094   |
 |[Member 5 Name] |    |
 |[Member 6 Name] |     |
 |[Member 7 Name] |     |
