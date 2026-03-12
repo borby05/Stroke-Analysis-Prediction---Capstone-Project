@@ -1,4 +1,4 @@
-# Healthcare Stroke Predictive Analysis. 
+# Healthcare Stroke Predictive Analysis
 
 ## Project Overview
 
