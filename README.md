@@ -316,7 +316,7 @@ This project was developed as a group capstone by the following team members:
 |NAME            |REG NUMBER                               |
 |----------------|------------------------------------|
 |Udobuzor Chinaecherem Augustus |DS/2025/TC5/083|
-|[Member 2 Name] |      |
+|⁠Goodness Chimelum Onyenakazi |   DS/2025/TC5/148   |
 |Adetola Isaac Olamide | DS/2025/TC5/072 |
 |[Member 4 Name] |        |
 |[Member 5 Name] |    |
