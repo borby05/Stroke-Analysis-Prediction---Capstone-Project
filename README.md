@@ -1,4 +1,4 @@
-# Stroke Risk Prediction — Machine Learning Capstone Project
+# Healthcare Stroke Predictive Analysis. 
 
 ## Project Overview
 
@@ -88,7 +88,7 @@ The dataset is severely imbalanced with a 19.5:1 ratio. A naive model predicting
 |------------------------|----------------------------------------------------------|---------------------------------------------------------------|
 |Missing BMI             |Imputed using age group and gender median                 |More accurate than global median imputation                    |
 |BMI Outliers            |Capped at IQR upper fence                                 |Extreme values above Q3 + 1.5×IQR replaced with median         |
-|Glucose Outliers        |Preserved                                                 |High glucose values are clinically meaningful — not noise      |
+|Glucose Outliers        |Preserved                                                 |High glucose values are clinically meaningful, meaning they are not noises     |
 |Smoking Unknown (minors)|Relabelled to “never smoked”                              |Children below 18 with unknown status are logically non-smokers|
 |Categorical Encoding    |OneHotEncoder (smoking) + OrdinalEncoder (binary features)|Appropriate per feature type                                   |
 |Feature Scaling         |StandardScaler on numerical features                      |Required for Logistic Regression                               |
@@ -99,10 +99,10 @@ The dataset is severely imbalanced with a 19.5:1 ratio. A naive model predicting
 |Feature       |Reason                                                                                   |
 |--------------|-----------------------------------------------------------------------------------------|
 |BMI           |Has a weak relationship with stroke.|
-|Gender        |0.40% stroke rate difference — near zero correlation (0.009)                             |
-|Ever Married  |Age confounding — 0.45 correlation with age                                              |
-|Work Type     |Age proxy — stroke rate differences entirely explained by age variation                  |
-|Residence Type|0.67% stroke rate difference — weakest predictor in entire dataset                       |
+|Gender        |0.40% stroke rate difference and near zero correlation (0.009)                             |
+|Ever Married  |Age Driven, having a 0.45 correlation with age                                              |
+|Work Type     |Age proxy, stroke rate differences entirely explained by age variation                  |
+|Residence Type|0.67% stroke rate difference, making it the weakest predictor in entire dataset                       |
 
 ### Final Feature Set
 
@@ -164,7 +164,7 @@ XGBClassifier(
 )
 ```
 
-## Final Model — XGBoost
+## Final Model: XGBoost
 
 **XGBoost** was selected as the final model based on its superior Recall performance, the primary evaluation metric for this medical screening task.
 
