@@ -255,6 +255,21 @@ For clinical adoption doctors need to understand why the model flagged a specifi
 
 The final model is deployed as an interactive web application using Streamlit.
 
+**Runnign Locally**
+
+```
+# Clone the repository
+git clone https://github.com/borby05/Stroke-Analysis-Prediction---Capstone-Project.git
+cd Stroke-Analysis-Prediction---Capstone-Project/deployment
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run app
+streamlit run app.py
+
+```
+**Note:** This app would open locally
 
 ### App Features
 
