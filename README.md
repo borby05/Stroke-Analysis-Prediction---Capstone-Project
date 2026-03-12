@@ -65,10 +65,10 @@ The dataset is severely imbalanced with a 19.5:1 ratio. A naive model predicting
 |Hypertension    |13.25%     |Significant but partially age-driven                   |
 |Glucose 200+    |12.90%     |Clear threshold effect above 150                       |
 |Glucose 150-200 |11.49%     |Over 3x the baseline rate                              |
-|Both Conditions |20.31%     |Compounding effect — highest risk group                |
+|Both Conditions |20.31%     |Compounding effect results to highest risk group                |
 |Formerly Smoked |7.91%      |Moderate signal                                        |
-|Gender (Male)   |5.11%      |Near baseline — minimal predictive value               |
-|Urban Residence |5.20%      |Near baseline — no independent signal                  |
+|Gender (Male)   |5.11%      |Near baseline,  minimal predictive value               |
+|Urban Residence |5.20%      |Near baseline, no independent signal                  |
 |BMI (standalone)|Weak       |Heavy distribution overlap with no stroke group        |
 
 ### Key EDA Insights
@@ -79,7 +79,7 @@ The dataset is severely imbalanced with a 19.5:1 ratio. A naive model predicting
 
 **Confounding Variables** were identified throughout the analysis. Ever married (0.45 correlation with age), work type, and BMI were all found to be proxies for age rather than independent predictors. These were excluded from the final model.
 
-**Multivariate Analysis** confirmed that stroke risk is driven by the convergence of multiple risk factors simultaneously. Patients with both hypertension and heart disease face a 20.31% stroke rate — six times higher than patients with neither condition — demonstrating a compounding rather than additive effect.
+**Multivariate Analysis** confirmed that stroke risk is driven by the convergence of multiple risk factors simultaneously. Patients with both hypertension and heart disease face a 20.31% stroke rate resulting to six times higher than patients with neither condition.
 
 
 ## Data Preprocessing
@@ -98,7 +98,7 @@ The dataset is severely imbalanced with a 19.5:1 ratio. A naive model predicting
 
 |Feature       |Reason                                                                                   |
 |--------------|-----------------------------------------------------------------------------------------|
-|BMI           |Heavy distribution overlap — 1.65 point mean difference insufficient for class separation|
+|BMI           |Has a weak relationship with stroke.|
 |Gender        |0.40% stroke rate difference — near zero correlation (0.009)                             |
 |Ever Married  |Age confounding — 0.45 correlation with age                                              |
 |Work Type     |Age proxy — stroke rate differences entirely explained by age variation                  |
@@ -166,7 +166,7 @@ XGBClassifier(
 
 ## Final Model — XGBoost
 
-**XGBoost** was selected as the final model based on its superior Recall performance — the primary evaluation metric for this medical screening task.
+**XGBoost** was selected as the final model based on its superior Recall performance, the primary evaluation metric for this medical screening task.
 
 ### Confusion Matrix
 
@@ -255,12 +255,12 @@ For clinical adoption doctors need to understand why the model flagged a specifi
 
 The final model is deployed as an interactive web application using Streamlit.
 
-**Runnign Locally**
+**Running Locally**
 
 ```
 # Clone the repository
 git clone https://github.com/borby05/Stroke-Analysis-Prediction---Capstone-Project.git
-cd Stroke-Analysis-Prediction---Capstone-Project/deployment
+cd C:\Users\USER\OneDrive\Desktop\StrokeDeployment
 
 # Install dependencies
 pip install -r requirements.txt
