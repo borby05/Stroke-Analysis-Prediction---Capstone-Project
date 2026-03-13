@@ -316,16 +316,14 @@ This project was developed as a group capstone by the following team members:
 |NAME            |REG NUMBER                               |
 |----------------|------------------------------------|
 |Udobuzor Chinaecherem Augustus |DS/2025/TC5/083|
-|⁠Goodness Chimelum Onyenakazi |   DS/2025/TC5/148   |
-|Adetola Isaac Olamide | DS/2025/TC5/072 |
-|⁠Julius Ayomide | DS/2025/TC5/094   |
-|⁠Kareem Azeezat Adebomi |  DS/2025/TC5/080  |
-|⁠Wasiu Alabi, Sadu | DS/2025/TC5/181|
-|[Member 7 Name] |     |
-|[Member 8 Name] |  |
-|[Member 9 Name] |           |
-|[Member 10 Name]|    |
-|[Member 11 Name]|    |
+|⁠Goodness Chimelum Onyenakazi |DS/2025/TC5/148|
+|Adetola Isaac Olamide |DS/2025/TC5/072|
+|⁠Julius Ayomide |DS/2025/TC5/094|
+|⁠Kareem Azeezat Adebomi|DS/2025/TC5/080|
+|⁠Wasiu Alabi, Sadu|DS/2025/TC5/181|
+|Peace Joseph Ariyo|DS/2025/TC5/228|
+|Ahmed Nurain Kehnide|DS/2025/TC5/075|
+|Epuechi Kosisochukwu Prosper|DS/2025/TC5/034|
 
 **INSTITUTION: TECH CRUSH**
 
